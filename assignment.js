@@ -82,3 +82,12 @@ function convertToCelsius(fahrenheit) {
   celsius = celsius.toFixed(2);
   return celsius;
 }
+
+// Problem 9: Write a function to find the maximum of five numbers.
+function maximumOfFiveNumbers(num1, num2, num3, num4, num5) {
+  let maximum = num1 > num2 ? num1 : num2;
+  maximum = maximum > num3 ? maximum : num3;
+  maximum = maximum > num4 ? maximum : num4;
+  maximum = maximum > num5 ? maximum : num5;
+  return maximum;
+}
