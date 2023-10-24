@@ -37,3 +37,18 @@ function isPrime(number) {
   }
   return isPrime;
 }
+
+// Problem 5: Create a function mergeArrays that takes two arrays as parameters and returns a new array that merges both arrays.
+function mergeArrays(array1, array2) {
+  const mergedArray = [];
+  for (let i = 0; i < array1.length; i++) {
+    mergedArray.push(array1[i]);
+  }
+
+  for (let i = 0; i < array2.length; i++) {
+    mergedArray.push(array2[i]);
+  }
+
+  return mergedArray;
+}
+console.log(mergeArrays([1, 2, 3], [10, 20]));
