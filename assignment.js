@@ -64,3 +64,14 @@ function isLeapYear(year) {
     return "Not Leap year";
   }
 }
+
+// Problem 7: Create a function removeDuplicates that takes an array and returns a new array with duplicates removed.
+function removeDuplicates(array) {
+  const arrayWithoutDuplicates = [];
+  for (let i = 0; i < array.length; i++) {
+    if (arrayWithoutDuplicates.indexOf(array[i]) == -1) {
+      arrayWithoutDuplicates.push(array[i]);
+    }
+  }
+  return arrayWithoutDuplicates;
+}
