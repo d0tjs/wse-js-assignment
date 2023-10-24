@@ -91,3 +91,16 @@ function maximumOfFiveNumbers(num1, num2, num3, num4, num5) {
   maximum = maximum > num5 ? maximum : num5;
   return maximum;
 }
+
+// Problem 10: Create a function called evenOdd() that takes a string as a parameter. Now you have to give the output based on the total number of characters in your String. The output will be 'even' or 'odd'. [ Input: ‘JavaScript’ Output: even, Input: ‘Hello’ Output: odd]
+function evenOdd(string) {
+  let charactersCount = 0;
+  for (let i = 0; i < string.length; i++) {
+    charactersCount++;
+  }
+  if (charactersCount % 2 == 0) {
+    return "even";
+  } else {
+    return "odd";
+  }
+}
