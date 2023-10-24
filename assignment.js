@@ -10,3 +10,12 @@ function degreesToRadians(degree) {
   radians = radians.toFixed(3); // toFixed is used to display 3 digits after decimal point
   return radians;
 }
+
+// Problem 3: Create a function calculateFactorial that takes a number and returns its factorial.
+function calculateFactorial(number) {
+  let factorial = 1;
+  for (let i = 2; i <= number; i++) {
+    factorial = factorial * i;
+  }
+  return factorial;
+}
