@@ -19,3 +19,21 @@ function calculateFactorial(number) {
   }
   return factorial;
 }
+
+// Problem 4: Create a function isPrime that takes a number as a parameter and returns true if it's a prime number, and false otherwise.
+function isPrime(number) {
+  let isPrime = true;
+  if (number == 2) {
+    isPrime = true;
+  } else if (number % 2 == 0 || number == 1) {
+    isPrime = false;
+  } else {
+    for (let i = 3; i < number; i++) {
+      if (number % i == 0) {
+        isPrime = false;
+        break;
+      }
+    }
+  }
+  return isPrime;
+}
