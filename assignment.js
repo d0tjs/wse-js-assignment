@@ -75,3 +75,10 @@ function removeDuplicates(array) {
   }
   return arrayWithoutDuplicates;
 }
+
+// Problem 8: Create a function convertToCelsius that takes a temperature in Fahrenheit and returns the equivalent temperature in Celsius.
+function convertToCelsius(fahrenheit) {
+  let celsius = (fahrenheit - 32) * (5 / 9);
+  celsius = celsius.toFixed(2);
+  return celsius;
+}
