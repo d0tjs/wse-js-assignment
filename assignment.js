@@ -51,4 +51,3 @@ function mergeArrays(array1, array2) {
 
   return mergedArray;
 }
-console.log(mergeArrays([1, 2, 3], [10, 20]));
