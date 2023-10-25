@@ -106,7 +106,6 @@ function evenOdd(string) {
 }
 
 // Question 1 ::: Explain the difference between 'if...else' and 'switch' statements for conditional logic.
-
 /*
 Ans::: 
 
@@ -121,7 +120,6 @@ behind the scene by javascript engine. But the swicth statement doesn't allow th
 */
 
 // Question 2 ::: What is JavaScript, and what is its primary purpose in web development?
-
 /*
 Ans:::
 
@@ -131,3 +129,22 @@ is used to create website structure and layout, JavaScript is used to add functi
 */
 
 // Question 3 ::: Explain the difference between var, let, and const when declaring variables in JavaScript.
+/*
+Ans:::
+
+IN JavaScript, var has function scope and global scope, While the keywords let and const was introduced from es6 has only block scope.
+Another difference is, variables declared with var keyword can be reassigned but let and const variables can not be reassigned. const variables
+must be initialized when declared. 
+
+*/
+
+// Question 4 :::  Explain the concept of "scope" in JavaScript and the difference between global and local scope.
+/*
+Ans:::
+
+Scope means the area within which a variable is accessible. In JavaScript, each {} curly braces and function creates their own scope.
+When any variable is declared inside any curly braces it becomes local to that scope. But when variable is declared outside of any 
+function, that variable becomes global. Global scoped variable can be accessed from anywhere but local scoped variable is only
+accessible to that scope and scope inside of it.
+
+*/
