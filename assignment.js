@@ -120,3 +120,5 @@ behind the scene by javascript engine. But the swicth statement doesn't allow th
 
 
 */
+
+// Question 2 ::: What is JavaScript, and what is its primary purpose in web development?
