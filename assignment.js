@@ -48,7 +48,6 @@ function mergeArrays(array1, array2) {
   for (let i = 0; i < array2.length; i++) {
     mergedArray.push(array2[i]);
   }
-
   return mergedArray;
 }
 
@@ -78,7 +77,7 @@ function removeDuplicates(array) {
 
 // Problem 8: Create a function convertToCelsius that takes a temperature in Fahrenheit and returns the equivalent temperature in Celsius.
 function convertToCelsius(fahrenheit) {
-  let celsius = (fahrenheit - 32) * (5 / 9);
+  let celsius = (fahrenheit - 32) * (5 / 9); // this is the formula to convert farenheit to celsius
   celsius = celsius.toFixed(2);
   return celsius;
 }
@@ -112,10 +111,12 @@ Ans:::
 In JavaScript, for conditional logic, we can use either if...else or switch statements. Though the concept is quite similar in both cases,
 they work differently in some cases.
 1) if...else allows us to have loose or non-strict comparison, meaning when two values are compared, their value type can be changed
-behind the scene by javascript engine. But the swicth statement doesn't allow this. Rather swicth statement follows strict comparison, meaning the values must be of same type. 
+behind the scene by javascript engine. But the swicth statement doesn't allow this. Rather swicth statement follows strict comparison,
+meaning the values must be of same type. 
 
-2) if...else if... else statements only executes one condition if it is true but switch staement allows to execute multiple cases if break is not used after any true case. Swicth staement continues executing cases when it finds the first true case and until it finds a break statement.
-
+2) if...else if... else statements only executes one condition if it is true but switch staement allows to execute multiple cases if break
+is not used after any true case. Swicth staement continues executing cases when it finds the first true case and until it finds a break
+statement.
 
 */
 
