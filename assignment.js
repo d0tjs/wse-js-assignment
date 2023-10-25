@@ -105,7 +105,6 @@ function evenOdd(string) {
   }
 }
 
-
 // Question 1 ::: Explain the difference between 'if...else' and 'switch' statements for conditional logic.
 
 /*
@@ -122,3 +121,13 @@ behind the scene by javascript engine. But the swicth statement doesn't allow th
 */
 
 // Question 2 ::: What is JavaScript, and what is its primary purpose in web development?
+
+/*
+Ans:::
+
+JavaScript is a programming language whose primary purpose in web development is to help create user friendly website. While html and css
+is used to create website structure and layout, JavaScript is used to add functionality in web pages.
+
+*/
+
+// Question 3 ::: Explain the difference between var, let, and const when declaring variables in JavaScript.
